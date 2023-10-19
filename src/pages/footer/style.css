@@ -1,0 +1,22 @@
+.footer-separator {
+    /* background-color: #f00; */
+    height: 70px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-grey);
+    height: 200px;
+    color: #fff;
+}
+
+#logo-footer {
+    height: 40px;
+}
+
+#rightWeb {
+    margin-top: 15px;
+}

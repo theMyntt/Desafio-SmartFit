@@ -2,13 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Header from './pages/header';
-import Season from './pages/season'
+import Season from './pages/season';
+import Footer from './pages/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
     <Season />
+    <Footer />
   </React.StrictMode>
 );
 
