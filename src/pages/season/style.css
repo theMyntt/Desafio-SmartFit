@@ -1,0 +1,60 @@
+.list-hour {
+    border: 2px solid var(--light-grey);
+    padding: 40px;
+    border-radius: 7px;
+}
+
+.ul-hours,
+.ul-hours h2 {
+    color: var(--light-grey);
+    font-weight: 300;
+}
+
+.ul-opt {
+    display: flex;
+    flex-direction: column;
+}
+
+.ul-opt div label {
+    padding: 20px 0;
+    border-top: 1px solid var(--light-grey);
+    display: flex;
+    align-items: center;
+}
+
+input[type=radio] {
+    border: 10px solid #000;
+}
+
+.ul-opt label input[type="radio"] {
+    appearance: none;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--light-grey) !important;
+    border-radius: 50%;
+    outline: none;
+}
+
+input[type="radio"]:checked {
+    background: var(--light-grey);
+    box-shadow: inset 0px 0px 0px 3px #fff;
+}
+
+#opt-lastC{
+    border-bottom: 1px solid var(--light-grey);
+}
+
+.hour-refactor {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon-space {
+    margin-right: 10px;
+}
+
+#icon-label {
+    color: var(--light-grey);
+}

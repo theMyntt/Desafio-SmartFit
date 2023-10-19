@@ -1,0 +1,35 @@
+.header-logo {
+    background-color: #000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.header #header-logo {
+    height: 55px;
+}
+
+.header .header-container {
+    margin-top: 80px;
+}
+
+.header-container h1 {
+    font-size: 60px;
+}
+.header-container h1, .header-container p {
+    color: var(--dark-grey);
+}
+
+.header-container p {
+    font-size: 20px;
+}
+
+.header .header-container .header-container-divisior {
+    width: 145px;
+    height: 15px;
+    background-color: var(--dark-grey);
+    margin: 40px 0;
+}
+
