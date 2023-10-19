@@ -1,6 +1,6 @@
 .list-hour {
     border: 2px solid var(--light-grey);
-    padding: 40px;
+    padding: 15px 30px;
     border-radius: 7px;
 }
 
@@ -17,7 +17,7 @@
 
 .ul-opt div label {
     padding: 20px 0;
-    border-top: 1px solid var(--light-grey);
+    /* border-top: 1px solid var(--light-grey); */
     display: flex;
     align-items: center;
 }
@@ -41,10 +41,6 @@ input[type="radio"]:checked {
     box-shadow: inset 0px 0px 0px 3px #fff;
 }
 
-#opt-lastC{
-    border-bottom: 1px solid var(--light-grey);
-}
-
 .hour-refactor {
     display: flex;
     align-items: center;
@@ -55,6 +51,68 @@ input[type="radio"]:checked {
     margin-right: 10px;
 }
 
+.ul-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--light-grey);
+}
+
+.list-footer {
+    margin-top: 20px;
+}
+
+.list-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light-grey);
+}
+
+.btn {
+    height: 50px;
+    width: 45%;
+    margin-left: 20px;
+    font-weight: 700;
+    border: 1px solid var(--light-grey);
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.btn:first-child {
+    margin:  0;
+}
+
+.ul-flex:last-child {
+    border-bottom: 1px solid var(--light-grey);
+}
+
 #icon-label {
     color: var(--light-grey);
+}
+
+#ul-heading {
+    margin-bottom: 20px;
+}
+
+#btn1 {
+    background-color: var(--yellow);
+    border: 0;
+}
+
+#checkInput {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#seeClosed {
+    display: flex;
+    align-items: center;
+}
+
+#btnSelect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -12,9 +12,9 @@ const Season = () => {
           <span id="icon-label">Horário</span>
         </div>
         <div className="ul-hours">
-          <h2>Qual período quer treinar?</h2>
+          <h2 id="ul-heading">Qual período quer treinar?</h2>
           <div className="ul-opt">
-            <div>
+            <div className="ul-flex">
               <label>
                 <input
                   type="radio"
@@ -26,8 +26,7 @@ const Season = () => {
               </label>
               <span>06:00 às 12:00</span>
             </div>
-            
-            <div>
+            <div className="ul-flex">
               <label>
                 <input
                   type="radio"
@@ -39,9 +38,8 @@ const Season = () => {
               </label>
               <span>12:01 às 18:00</span>
             </div>
-            
-            <div>
-              <label id="opt-lastC">
+            <div className="ul-flex">
+              <label>
                 <input
                   type="radio"
                   name="hour"
@@ -52,8 +50,21 @@ const Season = () => {
               </label>
               <span>18:01 às 23:00</span>
             </div>
-            
           </div>
+        </div>
+        <div className="list-footer">
+          <div className="list-flex">
+            <div id="seeClosed">
+              <label id="seeClosed"><input type="checkbox" id="checkInput"/> Exibir unidades fechadas</label>
+            </div>
+            <span>
+              Resultados encontrados: <span>0</span>
+            </span>
+          </div>
+        </div>
+        <div className="list-footer" id="btnSelect">
+          <button className="btn" id="btn1">ENCONTRAR UNIDADE</button>
+          <button className="btn" id="btn2">LIMPAR</button>
         </div>
       </div>
     </div>
