@@ -1,0 +1,24 @@
+.legend {
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px
+}
+
+.legend-section h3 {
+    margin-bottom: 15px;
+}
+
+.legend-section-icons {
+    display: flex;
+}
+
+.legend-text-center, .legend-section {
+    text-align: center;
+}
+
+.legend-text-center img {
+    height: 80px;
+    margin: 0 10px
+}
